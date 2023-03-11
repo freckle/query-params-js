@@ -1,0 +1,23 @@
+// @flow
+import { type, Moment } from "moment-timezone";
+declare type QueryParamsPrimitiveT = string | number | boolean;
+export type QueryParamValueT =
+  | QueryParamsPrimitiveT
+  | void
+  | null
+  | Array<QueryParamsPrimitiveT>
+  | Moment;
+export type QueryParamsObjT = {
+  [key: string]:
+    | QueryParamsPrimitiveT
+    | void
+    | null
+    | Array<QueryParamsPrimitiveT>,
+};
+declare export function urlWithQueryParams(
+  baseUrl: string,
+  queryParams: any
+): string;
+declare export function createAPIQueryParams(
+  queryParams: QueryParamsObjT
+): string | void | null;

@@ -399,10 +399,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@freckle/package-name@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@freckle/package-name@workspace:."
+"@freckle/maybe@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "@freckle/maybe@npm:2.1.0"
   dependencies:
+    lodash: ^4.17.21
+  checksum: 2c3753d6d448725d25163261512b5f6598ecea8d68c4955d44fbda2a6f257a7a4f6a4b6ce52c4ba334302a7376064ee04fc2b814d954060a1d60379d5d5531a1
+  languageName: node
+  linkType: hard
+
+"@freckle/query-params@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@freckle/query-params@workspace:."
+  dependencies:
+    "@freckle/maybe": ^2.1.0
     "@types/jest": ^28.1.1
     "@types/lodash": ^4.14.182
     cpy-cli: 3.1.1
@@ -411,6 +421,7 @@ __metadata:
     jest: ^28.1.3
     jest-environment-jsdom: ^29.5.0
     lodash: ^4.17.21
+    moment-timezone: ^0.5.41
     prettier: ^2.5.1
     ts-jest: ^28.0.4
     typescript: ^4.7.3
@@ -3991,6 +4002,22 @@ __metadata:
   bin:
     mkdirp: bin/cmd.js
   checksum: a96865108c6c3b1b8e1d5e9f11843de1e077e57737602de1b82030815f311be11f96f09cce59bd5b903d0b29834733e5313f9301e3ed6d6f6fba2eae0df4298f
+  languageName: node
+  linkType: hard
+
+"moment-timezone@npm:^0.5.41":
+  version: 0.5.41
+  resolution: "moment-timezone@npm:0.5.41"
+  dependencies:
+    moment: ^2.29.4
+  checksum: 30bf42265f749d4d17e78cf94f49d8354d9fbf2dea060a5b89895979642035734512a23cb7a90c0e93593bc11eb698b78b601b7dd5d9a708eb7c4f733a927a71
+  languageName: node
+  linkType: hard
+
+"moment@npm:^2.29.4":
+  version: 2.29.4
+  resolution: "moment@npm:2.29.4"
+  checksum: 0ec3f9c2bcba38dc2451b1daed5daded747f17610b92427bebe1d08d48d8b7bdd8d9197500b072d14e326dd0ccf3e326b9e3d07c5895d3d49e39b6803b76e80e
   languageName: node
   linkType: hard
 
