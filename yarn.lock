@@ -1144,12 +1144,12 @@ __metadata:
   linkType: hard
 
 "@types/jest@npm:^29.5.12":
-  version: 29.5.13
-  resolution: "@types/jest@npm:29.5.13"
+  version: 29.5.14
+  resolution: "@types/jest@npm:29.5.14"
   dependencies:
     expect: ^29.0.0
     pretty-format: ^29.0.0
-  checksum: 875ac23c2398cdcf22aa56c6ba24560f11d2afda226d4fa23936322dde6202f9fdbd2b91602af51c27ecba223d9fc3c1e33c9df7e47b3bf0e2aefc6baf13ce53
+  checksum: 18dba4623f26661641d757c63da2db45e9524c9be96a29ef713c703a9a53792df9ecee9f7365a0858ddbd6440d98fe6b65ca67895ca5884b73cbc7ffc11f3838
   languageName: node
   linkType: hard
 
@@ -1165,9 +1165,9 @@ __metadata:
   linkType: hard
 
 "@types/lodash@npm:^4.14.182":
-  version: 4.17.10
-  resolution: "@types/lodash@npm:4.17.10"
-  checksum: 4600f2f25270c8fee6953e363d318149a5f0f1b1bb820aa2f42d7ada6e4f7de31848bb5ffc2c687b40bd73aa982167bdd6e6d8d456e72abe0c660ec77d1fa7e9
+  version: 4.17.13
+  resolution: "@types/lodash@npm:4.17.13"
+  checksum: d0bf8fbd950be71946e0076b30fd40d492293baea75f05931b6b5b906fd62583708c6229abdb95b30205ad24ce1ed2f48bc9d419364f682320edd03405cc0c7e
   languageName: node
   linkType: hard
 
@@ -1843,13 +1843,13 @@ __metadata:
   linkType: hard
 
 "cross-spawn@npm:^7.0.3":
-  version: 7.0.3
-  resolution: "cross-spawn@npm:7.0.3"
+  version: 7.0.6
+  resolution: "cross-spawn@npm:7.0.6"
   dependencies:
     path-key: ^3.1.0
     shebang-command: ^2.0.0
     which: ^2.0.1
-  checksum: 671cc7c7288c3a8406f3c69a3ae2fc85555c04169e9d611def9a675635472614f1c0ed0ef80955d5b6d4e724f6ced67f0ad1bb006c2ea643488fcfef994d7f52
+  checksum: 8d306efacaf6f3f60e0224c287664093fa9185680b2d195852ba9a863f85d02dcc737094c6e512175f8ee0161f9b87c73c6826034c2422e39de7d6569cf4503b
   languageName: node
   linkType: hard
 
@@ -3622,11 +3622,11 @@ __metadata:
   linkType: hard
 
 "moment-timezone@npm:^0.5.41":
-  version: 0.5.45
-  resolution: "moment-timezone@npm:0.5.45"
+  version: 0.5.46
+  resolution: "moment-timezone@npm:0.5.46"
   dependencies:
     moment: ^2.29.4
-  checksum: a22e9f983fbe1a01757ce30685bce92e3f6efa692eb682afd47b82da3ff960b3c8c2c3883ec6715c124bc985a342b57cba1f6ba25a1c8b4c7ad766db3cd5e1d0
+  checksum: 3974b467a98e5eb5dece66187d251aa0f97b087413c9a6a607b38ae6fa67032e12a107649dd857cfbcc31c194f004eb13ecc9fcd582b6a168a9a19355ec5a2e3
   languageName: node
   linkType: hard
 
@@ -3985,11 +3985,11 @@ __metadata:
   linkType: hard
 
 "prettier@npm:^3.3.2":
-  version: 3.3.3
-  resolution: "prettier@npm:3.3.3"
+  version: 3.4.2
+  resolution: "prettier@npm:3.4.2"
   bin:
     prettier: bin/prettier.cjs
-  checksum: bc8604354805acfdde6106852d14b045bb20827ad76a5ffc2455b71a8257f94de93f17f14e463fe844808d2ccc87248364a5691488a3304f1031326e62d9276e
+  checksum: 061c84513db62d3944c8dc8df36584dad82883ce4e49efcdbedd8703dce5b173c33fd9d2a4e1725d642a3b713c932b55418342eaa347479bc4a9cca114a04cd0
   languageName: node
   linkType: hard
 
@@ -4612,12 +4612,12 @@ __metadata:
   linkType: hard
 
 "typescript@npm:^5.5.2":
-  version: 5.6.2
-  resolution: "typescript@npm:5.6.2"
+  version: 5.7.2
+  resolution: "typescript@npm:5.7.2"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 48777e1dabd9044519f56cd012b0296e3b72bafe12b7e8e34222751d45c67e0eba5387ecdaa6c14a53871a29361127798df6dc8d1d35643a0a47cb0b1c65a33a
+  checksum: b55300c4cefee8ee380d14fa9359ccb41ff8b54c719f6bc49b424899d662a5ce62ece390ce769568c7f4d14af844085255e63788740084444eb12ef423b13433
   languageName: node
   linkType: hard
 
@@ -4632,12 +4632,12 @@ __metadata:
   linkType: hard
 
 "typescript@patch:typescript@^5.5.2#~builtin<compat/typescript>":
-  version: 5.6.2
-  resolution: "typescript@patch:typescript@npm%3A5.6.2#~builtin<compat/typescript>::version=5.6.2&hash=1f5320"
+  version: 5.7.2
+  resolution: "typescript@patch:typescript@npm%3A5.7.2#~builtin<compat/typescript>::version=5.7.2&hash=1f5320"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: c084ee1ab865f108c787e6233a5f63c126c482c0c8e87ec998ac5288a2ad54b603e1ea8b8b272355823b833eb31b9fabb99e8c6152283e1cb47e3a76bd6faf6c
+  checksum: 803430c6da2ba73c25a21880d8d4f08a56d9d2444e6db2ea949ac4abceeece8e4a442b7b9b585db7d8a0b47ebda2060e45fe8ee8b8aca23e27ec1d4844987ee6
   languageName: node
   linkType: hard
 
