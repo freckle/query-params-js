@@ -631,7 +631,7 @@ __metadata:
     jest: ^29.7.0
     jest-environment-jsdom: ^29.5.0
     lodash: ^4.17.21
-    moment-timezone: ^0.5.41
+    moment-timezone: ^0.6.0
     prettier: ^3.3.2
     ts-jest: ^29.1.5
     typescript: ^5.5.2
@@ -3621,12 +3621,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"moment-timezone@npm:^0.5.41":
-  version: 0.5.48
-  resolution: "moment-timezone@npm:0.5.48"
+"moment-timezone@npm:^0.6.0":
+  version: 0.6.0
+  resolution: "moment-timezone@npm:0.6.0"
   dependencies:
     moment: ^2.29.4
-  checksum: 8a350b30205cc06aa9c029643316f4c0d538e76a3f7a92d74a3214d602377db2a1f8b7719debd4eb3e1fa1bac3de1912c1b94182af4e12810513670b578c84ab
+  checksum: 87cf0ecb17b36251bce3ec95edbc8eed5244d4e4b03f545ef2502a5607fde0f6ea767b7d7ef49eca90c68c326748d820c1d73cf7fea2d0b3b7ea738614e05edc
   languageName: node
   linkType: hard
 
