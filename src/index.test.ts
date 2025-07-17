@@ -73,6 +73,6 @@ describe('urlWithQueryParams', () => {
     expect(() => {
       // $FlowFixMe: We are by passing the type system here to make sure this is failing correctly when called in an untyped part of the app like in a 3rd party component
       urlWithQueryParams(baseUrl, {a: {b: 1}})
-    }).toThrowError(`Invalid type of query param object for key a`)
+    }).toThrow(`Invalid type of query param object for key a`)
   })
 })
