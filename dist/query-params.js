@@ -3,7 +3,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.createAPIQueryParams = exports.urlWithQueryParams = void 0;
+exports.urlWithQueryParams = urlWithQueryParams;
+exports.createAPIQueryParams = createAPIQueryParams;
 const moment_timezone_1 = __importDefault(require("moment-timezone"));
 const maybe_1 = require("@freckle/maybe");
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -11,7 +12,6 @@ function urlWithQueryParams(baseUrl, queryParams) {
     const mQueryParamsStr = createAPIQueryParams(queryParams);
     return (0, maybe_1.maybe)(() => baseUrl, queryParamsStr => `${baseUrl}?${queryParamsStr}`, mQueryParamsStr);
 }
-exports.urlWithQueryParams = urlWithQueryParams;
 function createAPIQueryParams(queryParams) {
     const queryParamsKeys = [...Object.keys(queryParams)];
     const params = (0, maybe_1.mapMaybes)(queryParamsKeys, key => {
@@ -21,7 +21,6 @@ function createAPIQueryParams(queryParams) {
     });
     return params.length > 0 ? `${params.join('&')}` : null;
 }
-exports.createAPIQueryParams = createAPIQueryParams;
 function createQueryParamValue(key, value) {
     if (value === null || value === undefined) {
         return null;
