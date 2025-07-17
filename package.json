@@ -20,11 +20,11 @@
     "moment-timezone": "^0.6.0"
   },
   "devDependencies": {
-    "@types/jest": "^29.5.12",
+    "@types/jest": "^30.0.0",
     "@types/lodash": "^4.14.182",
     "cpy-cli": "5.0.0",
-    "jest": "^29.7.0",
-    "jest-environment-jsdom": "^29.5.0",
+    "jest": "^30.0.0",
+    "jest-environment-jsdom": "^30.0.0",
     "prettier": "^3.3.2",
     "ts-jest": "^29.1.5",
     "typescript": "^5.5.2"
