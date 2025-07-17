@@ -11,7 +11,7 @@
   },
   "scripts": {
     "build": "rm -r dist && tsc -d",
-    "test": "jest && flow",
+    "test": "jest",
     "format": "prettier --write 'src/**/*.ts'"
   },
   "dependencies": {
