@@ -495,8 +495,8 @@ __metadata:
     "@types/jest": ^30.0.0
     "@types/lodash": ^4.17.20
     cpy-cli: 6.0.0
-    jest: ^30.0.5
-    jest-environment-jsdom: ^30.0.5
+    jest: ^30.2.0
+    jest-environment-jsdom: ^30.2.0
     lodash: ^4.17.21
     moment-timezone: ^0.6.0
     prettier: ^3.6.2
@@ -2567,7 +2567,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-environment-jsdom@npm:^30.0.5":
+"jest-environment-jsdom@npm:^30.2.0":
   version: 30.2.0
   resolution: "jest-environment-jsdom@npm:30.2.0"
   dependencies:
@@ -2917,7 +2917,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest@npm:^30.0.5":
+"jest@npm:^30.2.0":
   version: 30.2.0
   resolution: "jest@npm:30.2.0"
   dependencies:
