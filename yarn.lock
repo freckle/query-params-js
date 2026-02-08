@@ -494,7 +494,7 @@ __metadata:
     "@freckle/maybe": ^2.2.0
     "@types/jest": ^30.0.0
     "@types/lodash": ^4.17.23
-    cpy-cli: 6.0.0
+    cpy-cli: 7.0.0
     jest: ^30.2.0
     jest-environment-jsdom: ^30.2.0
     lodash: ^4.17.23
@@ -990,10 +990,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sindresorhus/merge-streams@npm:^2.1.0":
-  version: 2.3.0
-  resolution: "@sindresorhus/merge-streams@npm:2.3.0"
-  checksum: e989d53dee68d7e49b4ac02ae49178d561c461144cea83f66fa91ff012d981ad0ad2340cbd13f2fdb57989197f5c987ca22a74eb56478626f04e79df84291159
+"@sindresorhus/merge-streams@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "@sindresorhus/merge-streams@npm:4.0.0"
+  checksum: 5759d31dfd822999bbe3ddcf72d4b15dc3d99ea51dd5b3210888f3348234eaff0f44bc999bef6b3c328daeb34e862a63b2c4abe5590acec541f93bc6fa016c9d
   languageName: node
   linkType: hard
 
@@ -1679,29 +1679,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cpy-cli@npm:6.0.0":
-  version: 6.0.0
-  resolution: "cpy-cli@npm:6.0.0"
+"cpy-cli@npm:7.0.0":
+  version: 7.0.0
+  resolution: "cpy-cli@npm:7.0.0"
   dependencies:
-    cpy: ^12.0.0
-    meow: ^13.2.0
+    cpy: ^13.2.0
+    globby: ^16.1.0
+    meow: ^14.0.0
   bin:
     cpy: cli.js
-  checksum: f2f2ad6f743ac6edabcc27dc085bfea92287fea5b1b903ef2d8ecd809241a9d309f36ec6318aca1df237042baa51c5ed9d05c865c538b9a16d4a1d371f1e5e7a
+  checksum: c3fcd632e4efd05fdb4417f03d8302e66e6e3b84a624809e6fb6df49d3d33aa3c2464dba86399f6572b5b606797463a9e2ce2de8bd018ce31f5ed0db5b232ecc
   languageName: node
   linkType: hard
 
-"cpy@npm:^12.0.0":
-  version: 12.0.0
-  resolution: "cpy@npm:12.0.0"
+"cpy@npm:^13.2.0":
+  version: 13.2.0
+  resolution: "cpy@npm:13.2.0"
   dependencies:
     copy-file: ^11.1.0
-    globby: ^14.1.0
+    globby: ^16.1.0
     junk: ^4.0.1
     micromatch: ^4.0.8
     p-filter: ^4.1.0
-    p-map: ^7.0.3
-  checksum: 3f5c41da888b9d02b3a9b58041cd715cf45296f2ae4aed5f81a4c42ea6881e8c5abc7ae8606ba5ceaf50fb0ed97ba3ee91cd110f7ef539ad4de73e935daa6642
+    p-map: ^7.0.4
+  checksum: 3f0eaa700058e23ab33702a45319d6198f3d3bea5ec20d1e1de69a7048764b2a8b9cfb8b208589e40cd1fc3f7be40fde0185a9aa57521c54a602ab29debfb349
   languageName: node
   linkType: hard
 
@@ -2119,17 +2120,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globby@npm:^14.1.0":
-  version: 14.1.0
-  resolution: "globby@npm:14.1.0"
+"globby@npm:^16.1.0":
+  version: 16.1.0
+  resolution: "globby@npm:16.1.0"
   dependencies:
-    "@sindresorhus/merge-streams": ^2.1.0
+    "@sindresorhus/merge-streams": ^4.0.0
     fast-glob: ^3.3.3
-    ignore: ^7.0.3
-    path-type: ^6.0.0
+    ignore: ^7.0.5
+    is-path-inside: ^4.0.0
     slash: ^5.1.0
-    unicorn-magic: ^0.3.0
-  checksum: b1f27dccc999c010ee7e0ce7c6581fd2326ac86cf0508474d526d699a029b66b35d6fa4361c8b4ad8e80809582af71d5e2080e671cf03c26e98ca67aba8834bd
+    unicorn-magic: ^0.4.0
+  checksum: 9d6dd89dd1f1d8c601b82e22f49330794bc14dabac5211f36d534efa5e035c1a65ce61dd3bc8f420ba24ded0a736b867a17a4db9b3b40466ca906915edd1ed72
   languageName: node
   linkType: hard
 
@@ -2224,7 +2225,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ignore@npm:^7.0.3":
+"ignore@npm:^7.0.5":
   version: 7.0.5
   resolution: "ignore@npm:7.0.5"
   checksum: d0862bf64d3d58bf34d5fb0a9f725bec9ca5ce8cd1aecc8f28034269e8f69b8009ffd79ca3eda96962a6a444687781cd5efdb8c7c8ddc0a6996e36d31c217f14
@@ -2318,6 +2319,13 @@ __metadata:
   version: 7.0.0
   resolution: "is-number@npm:7.0.0"
   checksum: 456ac6f8e0f3111ed34668a624e45315201dff921e5ac181f8ec24923b99e9f32ca1a194912dc79d539c97d33dba17dc635202ff0b2cf98326f608323276d27a
+  languageName: node
+  linkType: hard
+
+"is-path-inside@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "is-path-inside@npm:4.0.0"
+  checksum: 8810fa11c58e6360b82c3e0d6cd7d9c7d0392d3ac9eb10f980b81f9839f40ac6d1d6d6f05d069db0d227759801228f0b072e1b6c343e4469b065ab5fe0b68fe5
   languageName: node
   linkType: hard
 
@@ -3124,10 +3132,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"meow@npm:^13.2.0":
-  version: 13.2.0
-  resolution: "meow@npm:13.2.0"
-  checksum: 79c61dc02ad448ff5c29bbaf1ef42181f1eae9947112c0e23db93e84cbc2708ecda53e54bfc6689f1e55255b2cea26840ec76e57a5773a16ca45f4fe2163ec1c
+"meow@npm:^14.0.0":
+  version: 14.0.0
+  resolution: "meow@npm:14.0.0"
+  checksum: f3a5318229c2f463791282ee0f0e8b6a3ff634c80225e19313ccc5c015acc712bef0cc551e3f5039e2693bb2c1969cadd3b031e934f5fc1dfca08c95f7958a31
   languageName: node
   linkType: hard
 
@@ -3456,10 +3464,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"p-map@npm:^7.0.1, p-map@npm:^7.0.2, p-map@npm:^7.0.3":
+"p-map@npm:^7.0.1, p-map@npm:^7.0.2":
   version: 7.0.3
   resolution: "p-map@npm:7.0.3"
   checksum: 8c92d533acf82f0d12f7e196edccff773f384098bbb048acdd55a08778ce4fc8889d8f1bde72969487bd96f9c63212698d79744c20bedfce36c5b00b46d369f8
+  languageName: node
+  linkType: hard
+
+"p-map@npm:^7.0.4":
+  version: 7.0.4
+  resolution: "p-map@npm:7.0.4"
+  checksum: 4be2097e942f2fd3a4f4b0c6585c721f23851de8ad6484d20c472b3ea4937d5cd9a59914c832b1bceac7bf9d149001938036b82a52de0bc381f61ff2d35d26a5
   languageName: node
   linkType: hard
 
@@ -3533,13 +3548,6 @@ __metadata:
     lru-cache: ^10.2.0
     minipass: ^5.0.0 || ^6.0.2 || ^7.0.0
   checksum: 890d5abcd593a7912dcce7cf7c6bf7a0b5648e3dee6caf0712c126ca0a65c7f3d7b9d769072a4d1baf370f61ce493ab5b038d59988688e0c5f3f646ee3c69023
-  languageName: node
-  linkType: hard
-
-"path-type@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "path-type@npm:6.0.0"
-  checksum: b9f6eaf7795c48d5c9bc4c6bc3ac61315b8d36975a73497ab2e02b764c0836b71fb267ea541863153f633a069a1c2ed3c247cb781633842fc571c655ac57c00e
   languageName: node
   linkType: hard
 
@@ -4168,10 +4176,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unicorn-magic@npm:^0.3.0":
-  version: 0.3.0
-  resolution: "unicorn-magic@npm:0.3.0"
-  checksum: bdd7d7c522f9456f32a0b77af23f8854f9a7db846088c3868ec213f9550683ab6a2bdf3803577eacbafddb4e06900974385841ccb75338d17346ccef45f9cb01
+"unicorn-magic@npm:^0.4.0":
+  version: 0.4.0
+  resolution: "unicorn-magic@npm:0.4.0"
+  checksum: 5a02923ac75a322b6ea8b0835cd106180cce01b67110f933ebd446757c708591ea45fbbe576f1e027c44a69642926d1d5b94ddf3a64082f4ff420296c84caff9
   languageName: node
   linkType: hard
 
