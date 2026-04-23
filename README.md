@@ -10,7 +10,7 @@ yarn add @freckle/query-params
 
 ## Release
 
-See [RELEASE.md](./RELEASE.md) for more details.
+See [RELEASE.md](./RELEASE.md).
 
 ## Usage
 
