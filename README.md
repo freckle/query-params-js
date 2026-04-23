@@ -8,7 +8,7 @@ Utilities for constructing and using query parameters.
 yarn add @freckle/query-params
 ```
 
-## Versioning and release process
+## Release
 
 See [RELEASE.md](./RELEASE.md).
 
