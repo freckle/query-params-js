@@ -494,7 +494,6 @@ __metadata:
     "@freckle/maybe": ^2.3.0
     "@types/jest": ^30.0.0
     "@types/lodash": ^4.17.24
-    cpy-cli: 7.0.0
     jest: ^30.3.0
     jest-environment-jsdom: ^30.3.0
     lodash: ^4.18.1
@@ -1681,33 +1680,6 @@ __metadata:
     graceful-fs: ^4.2.11
     p-event: ^6.0.0
   checksum: e872e6daf320ac644c9a41bb2a17d3cf6c370ee8432a070d72e3b5ea4633550c7e380ced7dd54949a9e3c1a1f7a44a3564cac29a4e1b2144bfa9b3d709de7130
-  languageName: node
-  linkType: hard
-
-"cpy-cli@npm:7.0.0":
-  version: 7.0.0
-  resolution: "cpy-cli@npm:7.0.0"
-  dependencies:
-    cpy: ^13.2.0
-    globby: ^16.1.0
-    meow: ^14.0.0
-  bin:
-    cpy: cli.js
-  checksum: c3fcd632e4efd05fdb4417f03d8302e66e6e3b84a624809e6fb6df49d3d33aa3c2464dba86399f6572b5b606797463a9e2ce2de8bd018ce31f5ed0db5b232ecc
-  languageName: node
-  linkType: hard
-
-"cpy@npm:^13.2.0":
-  version: 13.2.0
-  resolution: "cpy@npm:13.2.0"
-  dependencies:
-    copy-file: ^11.1.0
-    globby: ^16.1.0
-    junk: ^4.0.1
-    micromatch: ^4.0.8
-    p-filter: ^4.1.0
-    p-map: ^7.0.4
-  checksum: 3f0eaa700058e23ab33702a45319d6198f3d3bea5ec20d1e1de69a7048764b2a8b9cfb8b208589e40cd1fc3f7be40fde0185a9aa57521c54a602ab29debfb349
   languageName: node
   linkType: hard
 
