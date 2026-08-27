@@ -10,7 +10,7 @@
     "url": "git+https://github.com/freckle/query-params-js.git"
   },
   "scripts": {
-    "build": "rm -r dist && tsc -p tsconfig.build.json",
+    "build": "rm -rf dist && tsc -p tsconfig.build.json",
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
     "format": "prettier --write 'src/**/*.ts'"
