@@ -527,12 +527,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@freckle/maybe@npm:^2.3.0":
-  version: 2.3.0
-  resolution: "@freckle/maybe@npm:2.3.0"
-  dependencies:
-    lodash: "npm:^4.18.1"
-  checksum: 10c0/e06ee53e1d4156257d61024c6352da71e18b0e09a881ff1959102f1b6bd2a6aad837c92b3616dbcf15500d880b7941029e431000836fab4ca2043b8d4cdad48d
+"@freckle/maybe@npm:^2.3.1":
+  version: 2.3.1
+  resolution: "@freckle/maybe@npm:2.3.1"
+  checksum: 10c0/086d4c7a7adf366f34cf33b0a9229355f17b841d8a44929f5e6124c40691d1f8e0943081286b126e050718d36e855033cd2460b6d265774ed0cef09934b36857
   languageName: node
   linkType: hard
 
@@ -540,7 +538,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@freckle/query-params@workspace:."
   dependencies:
-    "@freckle/maybe": "npm:^2.3.0"
+    "@freckle/maybe": "npm:^2.3.1"
     "@types/jest": "npm:^30.0.0"
     "@types/lodash": "npm:^4.17.25"
     jest: "npm:^30.4.2"
