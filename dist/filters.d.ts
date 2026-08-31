@@ -1,4 +1,4 @@
-import type { QueryParamValueT, QueryParamsObjT } from './query-params';
+import type { QueryParamValueT, QueryParamsObjT } from './query-params.js';
 export type ParamFiltersT<A> = {
     in?: Array<A>;
     notin?: Array<A>;

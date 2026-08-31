@@ -1,7 +1,7 @@
 import {describe, expect, test} from 'vitest'
 import moment from 'moment-timezone'
 
-import {createAPIQueryParams, toQueryParamObj, urlWithQueryParams} from '.'
+import {createAPIQueryParams, toQueryParamObj, urlWithQueryParams} from './index.js'
 
 describe('urlWithQueryParams', () => {
   const baseUrl = 'www.test.com'

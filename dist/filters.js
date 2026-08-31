@@ -1,13 +1,7 @@
-"use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.toQueryParamObj = toQueryParamObj;
-const map_1 = __importDefault(require("lodash/map"));
-const reduce_1 = __importDefault(require("lodash/reduce"));
-function toQueryParamObj(name, filters) {
+import map from 'lodash/map.js';
+import reduce from 'lodash/reduce.js';
+export function toQueryParamObj(name, filters) {
     const entries = Object.entries(filters);
-    const appended = (0, map_1.default)(entries, ([k, v]) => [`${name}[${k}]`, v]);
-    return (0, reduce_1.default)(appended, (o, [k, v]) => (Object.assign(Object.assign({}, o), { [k]: v })), {});
+    const appended = map(entries, ([k, v]) => [`${name}[${k}]`, v]);
+    return reduce(appended, (o, [k, v]) => ({ ...o, [k]: v }), {});
 }
