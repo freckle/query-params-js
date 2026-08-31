@@ -5,12 +5,10 @@ Utilities for constructing and using query parameters.
 ## Install
 
 ```sh
-yarn add @freckle/query-params
+pnpm add @freckle/query-params
 ```
 
-## Release
-
-See [RELEASE.md](./RELEASE.md).
+This package is ESM-only.
 
 ## Usage
 
@@ -83,6 +81,22 @@ urlWithQueryParams('/api', {name: 'John Smith'}) // '/api?name=John Smith'
 Pass values that are already safe — ids, numbers, booleans, timestamps, enum
 strings — or encode them yourself before passing them in. Free-form text is not
 safe to pass directly.
+
+## Development
+
+- **Package manager**: pnpm (Node version pinned in `.nvmrc`)
+- `pnpm build` — `tsc -p tsconfig.build.json`, emits to `dist/`
+- `pnpm test` — Vitest
+- `pnpm coverage` — Vitest with coverage, gated at 70% (lines/branches/functions/statements)
+- `pnpm typecheck` — `tsc --noEmit`, includes test files
+- `pnpm lint` — ESLint
+- `pnpm format` / `pnpm format-check` — Prettier
+- `pnpm knip` — unused files/dependencies/exports
+- CI runs all of the above on every PR, plus a check that `dist/` is up to date
+
+## Release
+
+See [RELEASE.md](./RELEASE.md).
 
 ---
 
