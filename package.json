@@ -2,7 +2,7 @@
   "name": "@freckle/query-params",
   "version": "1.0.0",
   "description": "Query params utilities",
-  "author": "Freckle",
+  "author": "Renaissance Learning Inc",
   "license": "MIT",
   "type": "module",
   "main": "./dist/index.js",
