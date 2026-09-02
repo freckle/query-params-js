@@ -1,5 +1,3 @@
-import map from 'lodash/map'
-import reduce from 'lodash/reduce'
 import type {QueryParamValueT, QueryParamsObjT} from './query-params'
 
 export type ParamFiltersT<A> = {
@@ -16,6 +14,6 @@ export function toQueryParamObj<A extends QueryParamValueT>(
   filters: ParamFiltersT<A>
 ): QueryParamsObjT {
   const entries = Object.entries(filters)
-  const appended = map(entries, ([k, v]) => [`${name}[${k}]`, v])
-  return reduce(appended, (o, [k, v]) => ({...o, [k as string]: v}), {})
+  const appended = entries.map(([k, v]) => [`${name}[${k}]`, v])
+  return appended.reduce((o, [k, v]) => ({...o, [k as string]: v}), {})
 }
