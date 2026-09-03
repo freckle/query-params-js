@@ -1,6 +1,6 @@
-import map from 'lodash/map'
-import reduce from 'lodash/reduce'
-import type {QueryParamValueT, QueryParamsObjT} from './query-params'
+import map from 'lodash/map.js'
+import reduce from 'lodash/reduce.js'
+import type {QueryParamValueT, QueryParamsObjT} from './query-params.js'
 
 export type ParamFiltersT<A> = {
   in?: Array<A>

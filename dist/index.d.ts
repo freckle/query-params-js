@@ -1,4 +1,4 @@
-export type { QueryParamValueT, QueryParamsObjT } from './query-params';
-export { urlWithQueryParams, createAPIQueryParams } from './query-params';
-export type { ParamFiltersT } from './filters';
-export { toQueryParamObj } from './filters';
+export type { QueryParamValueT, QueryParamsObjT } from './query-params.js';
+export { urlWithQueryParams, createAPIQueryParams } from './query-params.js';
+export type { ParamFiltersT } from './filters.js';
+export { toQueryParamObj } from './filters.js';

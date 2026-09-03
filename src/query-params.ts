@@ -4,11 +4,7 @@ import {maybe, mapMaybes} from '@freckle/maybe'
 type QueryParamsPrimitiveT = string | number | boolean
 
 export type QueryParamValueT =
-  | QueryParamsPrimitiveT
-  | undefined
-  | null
-  | Array<QueryParamsPrimitiveT>
-  | Moment
+  QueryParamsPrimitiveT | undefined | null | Array<QueryParamsPrimitiveT> | Moment
 
 export type QueryParamsObjT = {
   [key: string]: QueryParamsPrimitiveT | undefined | null | Array<QueryParamsPrimitiveT>
