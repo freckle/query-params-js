@@ -3,7 +3,7 @@ import moment from 'moment-timezone'
 
 import {createAPIQueryParams, toQueryParamObj, urlWithQueryParams} from './index.js'
 
-describe('urlWithQueryParams', () => {
+describe(urlWithQueryParams.name, () => {
   const baseUrl = 'www.test.com'
 
   test('should return correct url when given empty object', () => {
@@ -78,7 +78,7 @@ describe('urlWithQueryParams', () => {
   })
 })
 
-describe('createAPIQueryParams', () => {
+describe(createAPIQueryParams.name, () => {
   test('should return the query string without a leading question mark', () => {
     expect(createAPIQueryParams({a: 1, b: 'x'})).toEqual('a=1&b=x')
   })
@@ -93,7 +93,7 @@ describe('createAPIQueryParams', () => {
   })
 })
 
-describe('toQueryParamObj', () => {
+describe(toQueryParamObj.name, () => {
   test('should return an empty object when given no filters', () => {
     expect(toQueryParamObj('score', {})).toEqual({})
   })

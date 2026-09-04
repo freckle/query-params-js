@@ -1,6 +1,6 @@
 import {toQueryParamObj} from './index.js'
 
-describe('toQueryParamObj', () => {
+describe(toQueryParamObj.name, () => {
   test('should return an empty object when given no filters', () => {
     expect(toQueryParamObj('score', {})).toEqual({})
   })
